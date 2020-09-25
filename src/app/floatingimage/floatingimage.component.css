@@ -1,0 +1,18 @@
+div{
+    border:2px solid black;
+    padding: 15px;
+}
+.scroll-parent{
+
+overflow: hidden;
+white-space: nowrap;
+}
+.scrolling{
+    text-align: center;
+    position: relative;
+    animation: scroll 5s infinite linear;
+}
+@keyframes scroll{
+    0% {left:200px;}
+    100% {left:-400px;}
+}

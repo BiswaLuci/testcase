@@ -1,0 +1,16 @@
+<div class="container1">
+    <form>
+        <label>dropdown</label>
+        <select class="from-control" ngModel name="options">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+        <button type="button" class="btn btn-secondary btnp" (click)="onListClicked()">list</button>
+        <button type="button" class="btn btn-secondary btnp" (click)="onGridClicked()">grid</button>
+    </form>
+    <div class="card1">
+        <div class="grid" [ngClass]="{list: listvalue === true}" *ngFor="let obj of products"> {{obj.employee_name}}</div>
+
+    </div>
+</div>

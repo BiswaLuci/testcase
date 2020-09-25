@@ -1,0 +1,9 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+}
+.active{
+    background-color: rgba(153, 212, 34, 0.418);
+    color:black;
+    font-weight: 700;
+}

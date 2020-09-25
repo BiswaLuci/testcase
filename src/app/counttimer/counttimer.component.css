@@ -1,0 +1,18 @@
+.tcontainer{
+border: 2px solid blue;
+}
+div{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+.element{
+    border: 1px solid black;
+    height:200px;
+    flex-basis: 47%;
+    width:47%;
+    position: relative;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 5px;
+}
